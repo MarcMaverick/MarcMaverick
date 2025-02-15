@@ -12,7 +12,7 @@ contract MahokiGreenLungRevolution is ERC20, Ownable {
     address public projectReserve = 0x9c6C6a3b902241911DB26c7d5a84A5872E6844A6; // Projektadresse
     address public partnershipReserve = 0x3c4ED40D6a0987B93Ae64d99ad62fA9A746E86C4; // Partnerschaftsadresse
     address public teamReserve = 0xc34E9AcDa81374c0f9597b96a99C6ee1078714F2; // Neue Teamadresse
-    address public communityReserve = 0x7890abcdef1234567890abcdef1234567890abcd;
+    address public communityReserve = 0xd2845388C1788f0CAEDF9c6028cdF9c0EfeF538b  // Neue community
 
     constructor() ERC20("Mahoki Green Lung Revolution", "MGLR") {
         // Initiale Zuteilung
