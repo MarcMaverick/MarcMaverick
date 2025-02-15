@@ -42,3 +42,37 @@ contract MahokiGreenLungRevolution is ERC20, Ownable {
         communityReserve = _communityReserve;
     }
 }
+Das Konzept der "Mahoki Green Lung Revolution" zielt darauf ab, ökologische Nachhaltigkeit durch die Einführung eines eigenen ERC20-Tokens zu fördern. Dieser Token dient als Anreizmechanismus, um umweltfreundliche Projekte zu unterstützen und die Community aktiv einzubinden.
+
+**Token-Details:**
+
+- **Name:** Mahoki Green Lung Revolution
+- **Symbol:** MGLR
+- **Initiale Gesamtmenge:** 500 Millionen MGLR
+- **Maximale Gesamtmenge:** 1 Milliarde MGLR
+
+**Verteilung der initialen Token:**
+
+- **30%** (150 Millionen MGLR) für den ICO
+- **25%** (125 Millionen MGLR) für Partnerschaften und Ökosystem-Entwicklung
+- **20%** (100 Millionen MGLR) für Umweltprojekte
+- **15%** (75 Millionen MGLR) für das Entwicklerteam
+- **10%** (50 Millionen MGLR) für Community-Incentives
+
+**Smart Contract Funktionen:**
+
+- **Minting:** Der Vertrag ermöglicht es dem Eigentümer, neue Tokens zu erstellen, solange die maximale Gesamtmenge nicht überschritten wird.
+- **Aktualisierung der Reserve-Adressen:** Der Eigentümer kann die Adressen für die verschiedenen Reserves bei Bedarf ändern.
+
+**Implementierung des Smart Contracts:**
+
+Der Smart Contract wurde in Solidity geschrieben und nutzt die OpenZeppelin-Bibliotheken für ERC20 und Ownable. Dies gewährleistet Sicherheit und Standardkonformität. Die spezifischen Adressen für die Reserves wurden entsprechend den Anforderungen festgelegt.
+
+**Nächste Schritte:**
+
+1. **Überprüfung und Testen des Smart Contracts:** Stellen Sie sicher, dass der Vertrag gründlich getestet wurde, um Fehler zu vermeiden.
+2. **Deployment auf der Blockchain:** Veröffentlichen Sie den Smart Contract auf der gewünschten Blockchain-Plattform.
+3. **Verifizierung des Contracts:** Nach dem Deployment sollte der Vertrag auf Plattformen wie Etherscan verifiziert werden, um Transparenz zu gewährleisten.
+4. **Bekanntmachung des Projekts:** Nutzen Sie soziale Medien, Foren und andere Kanäle, um die Community über das Projekt zu informieren und zur Teilnahme zu motivieren.
+
+Dieses Konzept bietet eine solide Grundlage, um ökologische Initiativen durch den Einsatz von Kryptowährungen zu unterstützen und eine engagierte Community aufzubauen. 
